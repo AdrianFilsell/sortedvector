@@ -111,9 +111,9 @@ public:
 	typedef extstl::vectorsorted<intpairvector,firstintlesspred,firstintequalpred> firstintsorted;
 
 	// second int comparison
-	typedef secondintvectorequalpred<intpairvector> surnameequalpred;
+	typedef secondintvectorequalpred<intpairvector> secondequalpred;
 	typedef secondintvectorlesspred<intpairvector,intpairvectororder::secondint> secondintlesspred;
-	typedef extstl::vectorsorted<intpairvector,secondintlesspred,surnameequalpred> secondintsorted;
+	typedef extstl::vectorsorted<intpairvector,secondintlesspred,secondequalpred> secondintsorted;
 };
 
 class listctrl : public CListCtrl
