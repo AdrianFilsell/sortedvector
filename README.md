@@ -6,4 +6,4 @@ instead of just passing a vector and then sorting it can now query vector to see
 
 MFC app showing simple usage of vector/sort code, more details can be found here:
 
-https://www.youtube.com/watch?v=PITHyAhm8lo
+https://youtu.be/EYUQKjgAgPM
