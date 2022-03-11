@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="app">
+      <UniqueIdentifier>{d6b52657-16f2-43ba-b0b0-b0b753f76fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extended stl vector">
+      <UniqueIdentifier>{8f9b8224-eda2-41b4-8b2f-f791a6252e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{685d601f-9caf-4ade-9275-6e8ab19b2c4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vector.h">
+      <Filter>extended stl vector</Filter>
+    </ClInclude>
+    <ClInclude Include="vectorpredicate.h">
+      <Filter>extended stl vector</Filter>
+    </ClInclude>
+    <ClInclude Include="listctrl.h">
+      <Filter>extended stl vector</Filter>
+    </ClInclude>
+    <ClInclude Include="sortedvector.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="sortedvectorDlg.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>app</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="listctrl.cpp">
+      <Filter>extended stl vector</Filter>
+    </ClCompile>
+    <ClCompile Include="sortedvector.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="sortedvectorDlg.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\sortedvector.ico">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sortedvector.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\sortedvector.rc2">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
