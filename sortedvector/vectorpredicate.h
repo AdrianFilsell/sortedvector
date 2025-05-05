@@ -2,6 +2,7 @@
 
 #include <typeinfo>
 #include <algorithm>
+#include <functional>
 #include <vector>
 
 namespace extstl
